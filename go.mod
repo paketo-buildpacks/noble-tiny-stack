@@ -2,6 +2,8 @@ module github.com/paketo-buildpacks/noble-tiny-stack
 
 go 1.22
 
+toolchain go1.22.4
+
 require (
 	github.com/google/go-containerregistry v0.8.1-0.20220209165246-a44adc326839
 	github.com/google/uuid v1.3.0
